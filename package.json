@@ -2,7 +2,7 @@
   "name": "vb-adfs-passport-strategy",
   "version": "1.0.0",
   "description": "A VanBerlo specific ADFS strategy to use with passport.js",
-  "main": "src/index.ts",
+  "main": "src",
   "scripts": {},
   "author": "Nils Westhoff",
   "license": "ISC",
