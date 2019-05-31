@@ -3,7 +3,7 @@ import { decode } from "jsonwebtoken";
 import md5 from "md5";
 
 class ADFSAuthStrategy extends OAuth2 {
-  userProfile = function(accessToken, done) {
+  userProfile = function(accessToken: string, done: Function) {
     const decoded = decode(accessToken);
 
     return done(null, {
